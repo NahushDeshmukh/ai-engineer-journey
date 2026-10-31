@@ -1,0 +1,27 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & tools
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets (CRITICAL)
+.env
+*.env.local
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+
+# Docker & logs
+*.log
+docker-compose.override.yml
+
+# Binary documents (curriculum tracked via ROADMAP.md)
+*.docx
+
